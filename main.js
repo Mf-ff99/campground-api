@@ -5,8 +5,6 @@
 //Empty the results before returning each search
 //add the park's addy?
 
-'use strict';
-
 //set api
 const searchURL = 'https://developer.nps.gov/api/v1/parks';
 const apiKey = 'F6Z16N8rA9t1U9dLlEmZ5bWhVdYV8jaz5JYijKTh';
