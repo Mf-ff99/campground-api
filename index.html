@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Search campsites by state</h1>
+    </header>
+    <main>
+        <form>
+            <label for="parkName">Enter State to search:</label><br>
+            <input type="string" id="parkInput" name="userInput" placeholder="i.e. Florida"><br>
+            <label for="searchLimit" id='searchLabel'>Enter max amount of results:</label><br>
+            <input type='number' id='search' name="userSearch" placeholder="3">
+            <button type="submit" id="parkSubmit">Search</button>
+        </form>
+        <div class="results">
+            <div class='jsonResponse'>
+                
+            </div>
+            
+            <div class='error-message'>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
