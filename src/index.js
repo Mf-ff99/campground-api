@@ -6,6 +6,9 @@
 //add the park's addy?
 
 //set api
+
+import $ from 'jquery';
+
 const searchURL = 'https://developer.nps.gov/api/v1/parks';
 const apiKey = 'F6Z16N8rA9t1U9dLlEmZ5bWhVdYV8jaz5JYijKTh';
 
